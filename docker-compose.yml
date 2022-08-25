@@ -13,13 +13,3 @@ services:
     build: ./node
     ports:
       - "3000:3000"
-  super-app-dotnet:
-    build: ./dotnet
-    ports:
-    - "8080:80"
-  super-app-python:
-    build: ./python
-  super-app-php:
-    build: ./php
-    ports:
-    - "8000:80"
